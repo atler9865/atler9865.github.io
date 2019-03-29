@@ -64,3 +64,6 @@ a{
 	font-weight: 600;
 }
 
+a:hover {
+	 opacity: 0.92; 
+}
