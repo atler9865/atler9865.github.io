@@ -1,5 +1,5 @@
 body{
-	background-image: url(background.png);
+	background-image: url(img/background.png);
 }
 
 
@@ -63,7 +63,13 @@ a{
 	color: #618ad2;
 	font-weight: 600;
 }
+.blog{
+	color: #1B345F;
+	font-size: 32px;
+	font-family: "Times New Roman";
+}
 
 a:hover {
 	 opacity: 0.9; 
 }
+
