@@ -1,0 +1,50 @@
+body{
+	background-image: url(../../img/white.png);
+}
+
+
+h1{
+	text-align: center;
+	color: #152d55;
+	
+}
+
+li {
+	font-size: 18px;
+	margin-bottom: 7px;
+	font-family: "Monaco", "Courier", monospace;
+	color: #4a6dab;
+	font-weight: 600;
+}
+
+h2{
+	margin-left: 25px;
+	color: #152d55;
+	font-size: 32px;
+	font-family: "Times New Roman";
+}
+a{	
+	font-family: "Monaco", "Courier", monospace;
+	text-decoration: none;
+	font-size: 18px;
+	color: #4a6dab;
+	font-weight: 600;
+}
+.project{
+	font-size: 25px;
+	margin-bottom: 7px;
+	font-family: "Monaco", "Courier", monospace;
+	color: #4a6dab;
+	font-weight: 600;
+}
+
+
+.blog{
+	color: #152d55;
+	font-size: 32px;
+	font-family: "Times New Roman";
+}
+
+a:hover {
+	 opacity: 0.9; 
+}
