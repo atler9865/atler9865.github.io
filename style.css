@@ -6,6 +6,7 @@ body{
 h1{
 	text-align: center;
 	color: #152d55;
+	cursor: default;
 	
 }
 
@@ -37,7 +38,12 @@ a{
 }
 
 a:hover {
-	 opacity: 0.9; 
+	 opacity: 0.85; 
+}
+
+h2 a:hover {
+	color: #4a6dab;
+	opacity: 1;
 }
 
 #i_am{
