@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+            background-color: #000;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-animation{
+          list-style: none;
+          display: inline-block;
+          cursor: default;
+          opacity: 1;
+          transition: all 5s ease;
+        }
+        .text-animation li{
+            display: inline-block;
+            margin-right: 4vw;
+            font-size: 8vw;
+            font-family: "Open Sans", Arial;
+            font-weight: 300;
+            color: #fff;
+            transition: all 5s ease;
+        }
+        .text-animation li:last-child{
+            margin-right: 0;
+        }
+        .text-animation.hidden li{
+            opacity: 0;
+        }
+        .text-animation.hidden li:nth-child(1){transform: translateX(200px) translateY(200px);}
+        .text-animation.hidden li:nth-child(2){transform: translateX(100px) translateY(300px);}
+        .text-animation.hidden li:nth-child(3){transform: translateX(100px) translateY(-200px);}
+        .text-animation.hidden li:nth-child(4){transform: translateX(-200px) translateY(100px);}
+        .text-animation.hidden li:nth-child(5){transform: translateX(150px) translateY(-100px);}
+        .text-animation.hidden li:nth-child(6){transform: translateX(20px) translateY(-200px);}
+        .text-animation.hidden li:nth-child(7){transform: translateX(-200px) translateY(20px);}
+
+    </style>
+    <ul class="text-animation hidden">
+        <li>W</li>
+        <li>E</li>
+        <li>L</li>
+        <li>C</li>
+        <li>O</li>
+        <li>M</li>
+        <li>E</li>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script type="text/javascript">
+        $(function(){
+            setTimeout(function(){
+                $('.text-animation').removeClass('hidden');
+            }, 600);
+        });
+    </script>
+</body>
+
+</html>
