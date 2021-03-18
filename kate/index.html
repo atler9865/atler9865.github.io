@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+ body {
+	 top: 0;
+	 left: 0;
+	 width: 100vw;
+	 height: 100vh;
+	 margin: 0;
+	 padding: 0;	 
+    text-align: center;
+	 font-family: "Open Sans", sans-serif;
+	 color: white;
+	 background: #333;
+}
+
+h1{
+    font-size: 2.8em;
+}
+
+ body .container {
+    display: flex;
+    flex-direction: column;
+    
+     position: relative;
+     margin: 0 auto;
+	 width: 70%;
+     padding: 20px;
+}
+
+ body .container a{
+    margin-top: 10px;
+    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    width: 70%;
+}
+body .container div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+body .container div:hover img{
+    border-radius: 8%;
+    transform: scale(1.2);
+
+}
+
+
+img{
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+ 
+</style>
+
+
+<body>
+    <div class="container">
+        <h1>Сертифікати</h1>
+            
+                <div class="item1">
+                    <a href="./img/1.png" target="_blank">
+                        <img src="./img/1.png" alt="">
+                    </a>  
+                </div>
+
+            <a href="./img/2.png" target="_blank">
+                <div class="item2">
+                    <img src="./img/2.png" alt="">
+                </div>
+            </a>
+
+            <a href="./img/3.png" target="_blank">
+                <div class="item3">
+                    <img src="./img/3.png" alt="">
+                </div>
+            </a>
+
+            <a href="./img/4.png" target="_blank">
+                <div class="item4">
+                    <img src="./img/4.png" alt="">
+                </div>
+            </a>
+
+    </div>
+</body>
+</html>
